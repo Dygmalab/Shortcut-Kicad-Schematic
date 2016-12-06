@@ -1,0 +1,388 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ws2812b
+LIBS:keyboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F0E
+P 7650 2700
+F 0 "SW?" H 7800 2810 50  0000 C CNN
+F 1 "SW_PUSH" H 7650 2620 50  0000 C CNN
+F 2 "" H 7650 2700 60  0000 C CNN
+F 3 "" H 7650 2700 60  0000 C CNN
+	1    7650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F15
+P 7650 3200
+F 0 "SW?" H 7800 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 7650 3120 50  0000 C CNN
+F 2 "" H 7650 3200 60  0000 C CNN
+F 3 "" H 7650 3200 60  0000 C CNN
+	1    7650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F1C
+P 7650 3700
+F 0 "SW?" H 7800 3810 50  0000 C CNN
+F 1 "SW_PUSH" H 7650 3620 50  0000 C CNN
+F 2 "" H 7650 3700 60  0000 C CNN
+F 3 "" H 7650 3700 60  0000 C CNN
+	1    7650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F23
+P 7650 4200
+F 0 "SW?" H 7800 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 7650 4120 50  0000 C CNN
+F 2 "" H 7650 4200 60  0000 C CNN
+F 3 "" H 7650 4200 60  0000 C CNN
+	1    7650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F2A
+P 7950 2850
+F 0 "D?" H 7950 2950 50  0000 C CNN
+F 1 "D" H 7950 2750 50  0000 C CNN
+F 2 "" H 7950 2850 60  0000 C CNN
+F 3 "" H 7950 2850 60  0000 C CNN
+	1    7950 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F31
+P 7950 3350
+F 0 "D?" H 7950 3450 50  0000 C CNN
+F 1 "D" H 7950 3250 50  0000 C CNN
+F 2 "" H 7950 3350 60  0000 C CNN
+F 3 "" H 7950 3350 60  0000 C CNN
+	1    7950 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F38
+P 7950 3850
+F 0 "D?" H 7950 3950 50  0000 C CNN
+F 1 "D" H 7950 3750 50  0000 C CNN
+F 2 "" H 7950 3850 60  0000 C CNN
+F 3 "" H 7950 3850 60  0000 C CNN
+	1    7950 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F3F
+P 7950 4350
+F 0 "D?" H 7950 4450 50  0000 C CNN
+F 1 "D" H 7950 4250 50  0000 C CNN
+F 2 "" H 7950 4350 60  0000 C CNN
+F 3 "" H 7950 4350 60  0000 C CNN
+	1    7950 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F46
+P 6950 2700
+F 0 "SW?" H 7100 2810 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 2620 50  0000 C CNN
+F 2 "" H 6950 2700 60  0000 C CNN
+F 3 "" H 6950 2700 60  0000 C CNN
+	1    6950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F4D
+P 6950 3200
+F 0 "SW?" H 7100 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 3120 50  0000 C CNN
+F 2 "" H 6950 3200 60  0000 C CNN
+F 3 "" H 6950 3200 60  0000 C CNN
+	1    6950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F54
+P 6950 3700
+F 0 "SW?" H 7100 3810 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 3620 50  0000 C CNN
+F 2 "" H 6950 3700 60  0000 C CNN
+F 3 "" H 6950 3700 60  0000 C CNN
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475F5B
+P 6950 4200
+F 0 "SW?" H 7100 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 4120 50  0000 C CNN
+F 2 "" H 6950 4200 60  0000 C CNN
+F 3 "" H 6950 4200 60  0000 C CNN
+	1    6950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F62
+P 7250 2850
+F 0 "D?" H 7250 2950 50  0000 C CNN
+F 1 "D" H 7250 2750 50  0000 C CNN
+F 2 "" H 7250 2850 60  0000 C CNN
+F 3 "" H 7250 2850 60  0000 C CNN
+	1    7250 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F69
+P 7250 3350
+F 0 "D?" H 7250 3450 50  0000 C CNN
+F 1 "D" H 7250 3250 50  0000 C CNN
+F 2 "" H 7250 3350 60  0000 C CNN
+F 3 "" H 7250 3350 60  0000 C CNN
+	1    7250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F70
+P 7250 3850
+F 0 "D?" H 7250 3950 50  0000 C CNN
+F 1 "D" H 7250 3750 50  0000 C CNN
+F 2 "" H 7250 3850 60  0000 C CNN
+F 3 "" H 7250 3850 60  0000 C CNN
+	1    7250 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475F77
+P 7250 4350
+F 0 "D?" H 7250 4450 50  0000 C CNN
+F 1 "D" H 7250 4250 50  0000 C CNN
+F 2 "" H 7250 4350 60  0000 C CNN
+F 3 "" H 7250 4350 60  0000 C CNN
+	1    7250 4350
+	0    -1   -1   0   
+$EndComp
+Text Notes 6850 2100 0    60   ~ 0
+5way
+Text Notes 7500 2100 0    60   ~ 0
+5way
+$Comp
+L POT RV?
+U 1 1 58475F83
+P 4800 2850
+F 0 "RV?" H 4800 2750 50  0000 C CNN
+F 1 "POT" H 4800 2850 50  0000 C CNN
+F 2 "" H 4800 2850 60  0000 C CNN
+F 3 "" H 4800 2850 60  0000 C CNN
+	1    4800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 58475F8A
+P 4800 3350
+F 0 "RV?" H 4800 3250 50  0000 C CNN
+F 1 "POT" H 4800 3350 50  0000 C CNN
+F 2 "" H 4800 3350 60  0000 C CNN
+F 3 "" H 4800 3350 60  0000 C CNN
+	1    4800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475F91
+P 5050 3500
+F 0 "#PWR?" H 5050 3250 50  0001 C CNN
+F 1 "Earth" H 5050 3350 50  0001 C CNN
+F 2 "" H 5050 3500 60  0000 C CNN
+F 3 "" H 5050 3500 60  0000 C CNN
+	1    5050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475F97
+P 4550 2700
+F 0 "#PWR?" H 4550 2550 50  0001 C CNN
+F 1 "+5V" H 4550 2840 50  0000 C CNN
+F 2 "" H 4550 2700 60  0000 C CNN
+F 3 "" H 4550 2700 60  0000 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4000 7950 4000
+Wire Wire Line
+	7250 4500 7950 4500
+Connection ~ 7950 3000
+Connection ~ 7350 2700
+Wire Wire Line
+	7350 2500 7350 2700
+Wire Wire Line
+	7350 2700 7350 3200
+Wire Wire Line
+	7350 3200 7350 3700
+Wire Wire Line
+	7350 3700 7350 4200
+Connection ~ 7250 3000
+Connection ~ 6650 2700
+Wire Wire Line
+	6650 2500 6650 2700
+Wire Wire Line
+	6650 2700 6650 3200
+Wire Wire Line
+	6650 3200 6650 3700
+Wire Wire Line
+	6650 3700 6650 4200
+Connection ~ 6650 3200
+Connection ~ 6650 3700
+Connection ~ 7250 4000
+Connection ~ 7250 3500
+Connection ~ 7250 4500
+Connection ~ 7350 3700
+Connection ~ 7350 3200
+Wire Wire Line
+	4550 2700 4550 2850
+Wire Wire Line
+	4550 2850 4550 3350
+Wire Wire Line
+	5050 2850 5050 3350
+Wire Wire Line
+	5050 3350 5050 3500
+Connection ~ 4550 2850
+Connection ~ 5050 3350
+Connection ~ 7200 3800
+Wire Wire Line
+	7250 3500 7950 3500
+Wire Wire Line
+	7250 3000 7950 3000
+$Comp
+L CONN_02X05 thumb-l?
+U 1 1 58475FC3
+P 2500 2950
+F 0 "thumb-l?" H 2500 3250 50  0000 C CNN
+F 1 "CONN_02X05" H 2500 2650 50  0000 C CNN
+F 2 "" H 2500 1750 60  0000 C CNN
+F 3 "" H 2500 1750 60  0000 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475FD2
+P 2750 3050
+F 0 "#PWR?" H 2750 2900 50  0001 C CNN
+F 1 "+5V" H 2750 3190 50  0000 C CNN
+F 2 "" H 2750 3050 60  0000 C CNN
+F 3 "" H 2750 3050 60  0000 C CNN
+	1    2750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475FD8
+P 2750 3150
+F 0 "#PWR?" H 2750 2900 50  0001 C CNN
+F 1 "Earth" H 2750 3000 50  0001 C CNN
+F 2 "" H 2750 3150 60  0000 C CNN
+F 3 "" H 2750 3150 60  0000 C CNN
+	1    2750 3150
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2250 2750 0    60   Input ~ 0
+row1
+Text HLabel 2250 2850 0    60   Input ~ 0
+row2
+Text HLabel 2250 2950 0    60   Input ~ 0
+row3
+Text HLabel 2250 3050 0    60   Input ~ 0
+row4
+Text HLabel 2250 3150 0    60   Input ~ 0
+col1
+Text HLabel 2750 2750 2    60   Input ~ 0
+col2
+Text HLabel 2750 2850 2    60   Input ~ 0
+joy-x
+Text HLabel 2750 2950 2    60   Input ~ 0
+joy-y
+Text HLabel 4800 2700 2    60   Input ~ 0
+joy-x
+Text HLabel 4800 3200 2    60   Input ~ 0
+joy-y
+Text HLabel 6650 2500 0    60   Input ~ 0
+col1
+Text HLabel 7350 2500 0    60   Input ~ 0
+col2
+Text HLabel 7950 3000 2    60   Input ~ 0
+row1
+Text HLabel 7950 3500 2    60   Input ~ 0
+row2
+Text HLabel 7950 4000 2    60   Input ~ 0
+row3
+Text HLabel 7950 4500 2    60   Input ~ 0
+row4
+Text Notes 4650 2100 0    60   ~ 0
+joystick
+Text Notes 2100 2050 0    60   ~ 0
+10way connector
+Text Notes 7450 6850 0    118  ~ 0
+thumb board
+$EndSCHEMATC

@@ -1,0 +1,886 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ws2812b
+LIBS:keyboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH SW?
+U 1 1 584750A4
+P 1750 1550
+F 0 "SW?" H 1900 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 1750 1470 50  0000 C CNN
+F 2 "" H 1750 1550 60  0000 C CNN
+F 3 "" H 1750 1550 60  0000 C CNN
+	1    1750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 584750AB
+P 1750 2050
+F 0 "SW?" H 1900 2160 50  0000 C CNN
+F 1 "SW_PUSH" H 1750 1970 50  0000 C CNN
+F 2 "" H 1750 2050 60  0000 C CNN
+F 3 "" H 1750 2050 60  0000 C CNN
+	1    1750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 584750B2
+P 1750 2550
+F 0 "SW?" H 1900 2660 50  0000 C CNN
+F 1 "SW_PUSH" H 1750 2470 50  0000 C CNN
+F 2 "" H 1750 2550 60  0000 C CNN
+F 3 "" H 1750 2550 60  0000 C CNN
+	1    1750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 584750B9
+P 2050 1700
+F 0 "D?" H 2050 1800 50  0000 C CNN
+F 1 "D" H 2050 1600 50  0000 C CNN
+F 2 "" H 2050 1700 60  0000 C CNN
+F 3 "" H 2050 1700 60  0000 C CNN
+	1    2050 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 584750C0
+P 2050 2200
+F 0 "D?" H 2050 2300 50  0000 C CNN
+F 1 "D" H 2050 2100 50  0000 C CNN
+F 2 "" H 2050 2200 60  0000 C CNN
+F 3 "" H 2050 2200 60  0000 C CNN
+	1    2050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 584750C7
+P 2050 2700
+F 0 "D?" H 2050 2800 50  0000 C CNN
+F 1 "D" H 2050 2600 50  0000 C CNN
+F 2 "" H 2050 2700 60  0000 C CNN
+F 3 "" H 2050 2700 60  0000 C CNN
+	1    2050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475106
+P 2450 1550
+F 0 "SW?" H 2600 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 2450 1470 50  0000 C CNN
+F 2 "" H 2450 1550 60  0000 C CNN
+F 3 "" H 2450 1550 60  0000 C CNN
+	1    2450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5847510D
+P 2450 2050
+F 0 "SW?" H 2600 2160 50  0000 C CNN
+F 1 "SW_PUSH" H 2450 1970 50  0000 C CNN
+F 2 "" H 2450 2050 60  0000 C CNN
+F 3 "" H 2450 2050 60  0000 C CNN
+	1    2450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475114
+P 2450 2550
+F 0 "SW?" H 2600 2660 50  0000 C CNN
+F 1 "SW_PUSH" H 2450 2470 50  0000 C CNN
+F 2 "" H 2450 2550 60  0000 C CNN
+F 3 "" H 2450 2550 60  0000 C CNN
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5847511B
+P 2750 1700
+F 0 "D?" H 2750 1800 50  0000 C CNN
+F 1 "D" H 2750 1600 50  0000 C CNN
+F 2 "" H 2750 1700 60  0000 C CNN
+F 3 "" H 2750 1700 60  0000 C CNN
+	1    2750 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475122
+P 2750 2200
+F 0 "D?" H 2750 2300 50  0000 C CNN
+F 1 "D" H 2750 2100 50  0000 C CNN
+F 2 "" H 2750 2200 60  0000 C CNN
+F 3 "" H 2750 2200 60  0000 C CNN
+	1    2750 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475129
+P 2750 2700
+F 0 "D?" H 2750 2800 50  0000 C CNN
+F 1 "D" H 2750 2600 50  0000 C CNN
+F 2 "" H 2750 2700 60  0000 C CNN
+F 3 "" H 2750 2700 60  0000 C CNN
+	1    2750 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475130
+P 3150 1550
+F 0 "SW?" H 3300 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 3150 1470 50  0000 C CNN
+F 2 "" H 3150 1550 60  0000 C CNN
+F 3 "" H 3150 1550 60  0000 C CNN
+	1    3150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475137
+P 3150 2050
+F 0 "SW?" H 3300 2160 50  0000 C CNN
+F 1 "SW_PUSH" H 3150 1970 50  0000 C CNN
+F 2 "" H 3150 2050 60  0000 C CNN
+F 3 "" H 3150 2050 60  0000 C CNN
+	1    3150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5847513E
+P 3150 2550
+F 0 "SW?" H 3300 2660 50  0000 C CNN
+F 1 "SW_PUSH" H 3150 2470 50  0000 C CNN
+F 2 "" H 3150 2550 60  0000 C CNN
+F 3 "" H 3150 2550 60  0000 C CNN
+	1    3150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 58475145
+P 3450 1700
+F 0 "D?" H 3450 1800 50  0000 C CNN
+F 1 "D" H 3450 1600 50  0000 C CNN
+F 2 "" H 3450 1700 60  0000 C CNN
+F 3 "" H 3450 1700 60  0000 C CNN
+	1    3450 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5847514C
+P 3450 2200
+F 0 "D?" H 3450 2300 50  0000 C CNN
+F 1 "D" H 3450 2100 50  0000 C CNN
+F 2 "" H 3450 2200 60  0000 C CNN
+F 3 "" H 3450 2200 60  0000 C CNN
+	1    3450 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475153
+P 3450 2700
+F 0 "D?" H 3450 2800 50  0000 C CNN
+F 1 "D" H 3450 2600 50  0000 C CNN
+F 2 "" H 3450 2700 60  0000 C CNN
+F 3 "" H 3450 2700 60  0000 C CNN
+	1    3450 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5847515A
+P 3850 1550
+F 0 "SW?" H 4000 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 3850 1470 50  0000 C CNN
+F 2 "" H 3850 1550 60  0000 C CNN
+F 3 "" H 3850 1550 60  0000 C CNN
+	1    3850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475161
+P 3850 2050
+F 0 "SW?" H 4000 2160 50  0000 C CNN
+F 1 "SW_PUSH" H 3850 1970 50  0000 C CNN
+F 2 "" H 3850 2050 60  0000 C CNN
+F 3 "" H 3850 2050 60  0000 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475168
+P 3850 2550
+F 0 "SW?" H 4000 2660 50  0000 C CNN
+F 1 "SW_PUSH" H 3850 2470 50  0000 C CNN
+F 2 "" H 3850 2550 60  0000 C CNN
+F 3 "" H 3850 2550 60  0000 C CNN
+	1    3850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5847516F
+P 4150 1700
+F 0 "D?" H 4150 1800 50  0000 C CNN
+F 1 "D" H 4150 1600 50  0000 C CNN
+F 2 "" H 4150 1700 60  0000 C CNN
+F 3 "" H 4150 1700 60  0000 C CNN
+	1    4150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475176
+P 4150 2200
+F 0 "D?" H 4150 2300 50  0000 C CNN
+F 1 "D" H 4150 2100 50  0000 C CNN
+F 2 "" H 4150 2200 60  0000 C CNN
+F 3 "" H 4150 2200 60  0000 C CNN
+	1    4150 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5847517D
+P 4150 2700
+F 0 "D?" H 4150 2800 50  0000 C CNN
+F 1 "D" H 4150 2600 50  0000 C CNN
+F 2 "" H 4150 2700 60  0000 C CNN
+F 3 "" H 4150 2700 60  0000 C CNN
+	1    4150 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 58475184
+P 4550 1550
+F 0 "SW?" H 4700 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 4550 1470 50  0000 C CNN
+F 2 "" H 4550 1550 60  0000 C CNN
+F 3 "" H 4550 1550 60  0000 C CNN
+	1    4550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5847518B
+P 4550 2050
+F 0 "SW?" H 4700 2160 50  0000 C CNN
+F 1 "SW_PUSH" H 4550 1970 50  0000 C CNN
+F 2 "" H 4550 2050 60  0000 C CNN
+F 3 "" H 4550 2050 60  0000 C CNN
+	1    4550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 58475192
+P 4850 1700
+F 0 "D?" H 4850 1800 50  0000 C CNN
+F 1 "D" H 4850 1600 50  0000 C CNN
+F 2 "" H 4850 1700 60  0000 C CNN
+F 3 "" H 4850 1700 60  0000 C CNN
+	1    4850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 58475199
+P 4850 2200
+F 0 "D?" H 4850 2300 50  0000 C CNN
+F 1 "D" H 4850 2100 50  0000 C CNN
+F 2 "" H 4850 2200 60  0000 C CNN
+F 3 "" H 4850 2200 60  0000 C CNN
+	1    4850 2200
+	0    -1   -1   0   
+$EndComp
+Text Notes 7400 6850 0    118  ~ 0
+half buttons
+$Comp
+L ws2812b led?
+U 1 1 58475202
+P 6550 1650
+F 0 "led?" H 6500 1850 60  0000 C CNN
+F 1 "ws2812b" H 6500 1450 60  0000 C CNN
+F 2 "" H 6550 1650 60  0000 C CNN
+F 3 "" H 6550 1650 60  0000 C CNN
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 58475209
+P 7550 1650
+F 0 "led?" H 7500 1850 60  0000 C CNN
+F 1 "ws2812b" H 7500 1450 60  0000 C CNN
+F 2 "" H 7550 1650 60  0000 C CNN
+F 3 "" H 7550 1650 60  0000 C CNN
+	1    7550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 58475210
+P 8500 1650
+F 0 "led?" H 8450 1850 60  0000 C CNN
+F 1 "ws2812b" H 8450 1450 60  0000 C CNN
+F 2 "" H 8500 1650 60  0000 C CNN
+F 3 "" H 8500 1650 60  0000 C CNN
+	1    8500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 58475217
+P 9450 1650
+F 0 "led?" H 9400 1850 60  0000 C CNN
+F 1 "ws2812b" H 9400 1450 60  0000 C CNN
+F 2 "" H 9450 1650 60  0000 C CNN
+F 3 "" H 9450 1650 60  0000 C CNN
+	1    9450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5847521E
+P 8850 1750
+F 0 "#PWR?" H 8850 1500 50  0001 C CNN
+F 1 "Earth" H 8850 1600 50  0001 C CNN
+F 2 "" H 8850 1750 60  0000 C CNN
+F 3 "" H 8850 1750 60  0000 C CNN
+	1    8850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475224
+P 7900 1750
+F 0 "#PWR?" H 7900 1500 50  0001 C CNN
+F 1 "Earth" H 7900 1600 50  0001 C CNN
+F 2 "" H 7900 1750 60  0000 C CNN
+F 3 "" H 7900 1750 60  0000 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5847522A
+P 6900 1750
+F 0 "#PWR?" H 6900 1500 50  0001 C CNN
+F 1 "Earth" H 6900 1600 50  0001 C CNN
+F 2 "" H 6900 1750 60  0000 C CNN
+F 3 "" H 6900 1750 60  0000 C CNN
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475230
+P 9800 1750
+F 0 "#PWR?" H 9800 1500 50  0001 C CNN
+F 1 "Earth" H 9800 1600 50  0001 C CNN
+F 2 "" H 9800 1750 60  0000 C CNN
+F 3 "" H 9800 1750 60  0000 C CNN
+	1    9800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475236
+P 6100 1550
+F 0 "#PWR?" H 6100 1400 50  0001 C CNN
+F 1 "+5V" H 6100 1690 50  0000 C CNN
+F 2 "" H 6100 1550 60  0000 C CNN
+F 3 "" H 6100 1550 60  0000 C CNN
+	1    6100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5847523C
+P 7100 1550
+F 0 "#PWR?" H 7100 1400 50  0001 C CNN
+F 1 "+5V" H 7100 1690 50  0000 C CNN
+F 2 "" H 7100 1550 60  0000 C CNN
+F 3 "" H 7100 1550 60  0000 C CNN
+	1    7100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475242
+P 8050 1550
+F 0 "#PWR?" H 8050 1400 50  0001 C CNN
+F 1 "+5V" H 8050 1690 50  0000 C CNN
+F 2 "" H 8050 1550 60  0000 C CNN
+F 3 "" H 8050 1550 60  0000 C CNN
+	1    8050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475248
+P 9000 1550
+F 0 "#PWR?" H 9000 1400 50  0001 C CNN
+F 1 "+5V" H 9000 1690 50  0000 C CNN
+F 2 "" H 9000 1550 60  0000 C CNN
+F 3 "" H 9000 1550 60  0000 C CNN
+	1    9000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 5847524E
+P 6550 2250
+F 0 "led?" H 6500 2450 60  0000 C CNN
+F 1 "ws2812b" H 6500 2050 60  0000 C CNN
+F 2 "" H 6550 2250 60  0000 C CNN
+F 3 "" H 6550 2250 60  0000 C CNN
+	1    6550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 58475255
+P 7550 2250
+F 0 "led?" H 7500 2450 60  0000 C CNN
+F 1 "ws2812b" H 7500 2050 60  0000 C CNN
+F 2 "" H 7550 2250 60  0000 C CNN
+F 3 "" H 7550 2250 60  0000 C CNN
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 5847525C
+P 8500 2250
+F 0 "led?" H 8450 2450 60  0000 C CNN
+F 1 "ws2812b" H 8450 2050 60  0000 C CNN
+F 2 "" H 8500 2250 60  0000 C CNN
+F 3 "" H 8500 2250 60  0000 C CNN
+	1    8500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ws2812b led?
+U 1 1 58475263
+P 9450 2250
+F 0 "led?" H 9400 2450 60  0000 C CNN
+F 1 "ws2812b" H 9400 2050 60  0000 C CNN
+F 2 "" H 9450 2250 60  0000 C CNN
+F 3 "" H 9450 2250 60  0000 C CNN
+	1    9450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5847526A
+P 8850 2350
+F 0 "#PWR?" H 8850 2100 50  0001 C CNN
+F 1 "Earth" H 8850 2200 50  0001 C CNN
+F 2 "" H 8850 2350 60  0000 C CNN
+F 3 "" H 8850 2350 60  0000 C CNN
+	1    8850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475270
+P 7900 2350
+F 0 "#PWR?" H 7900 2100 50  0001 C CNN
+F 1 "Earth" H 7900 2200 50  0001 C CNN
+F 2 "" H 7900 2350 60  0000 C CNN
+F 3 "" H 7900 2350 60  0000 C CNN
+	1    7900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475276
+P 6900 2350
+F 0 "#PWR?" H 6900 2100 50  0001 C CNN
+F 1 "Earth" H 6900 2200 50  0001 C CNN
+F 2 "" H 6900 2350 60  0000 C CNN
+F 3 "" H 6900 2350 60  0000 C CNN
+	1    6900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5847527C
+P 9800 2350
+F 0 "#PWR?" H 9800 2100 50  0001 C CNN
+F 1 "Earth" H 9800 2200 50  0001 C CNN
+F 2 "" H 9800 2350 60  0000 C CNN
+F 3 "" H 9800 2350 60  0000 C CNN
+	1    9800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475282
+P 6100 2150
+F 0 "#PWR?" H 6100 2000 50  0001 C CNN
+F 1 "+5V" H 6100 2290 50  0000 C CNN
+F 2 "" H 6100 2150 60  0000 C CNN
+F 3 "" H 6100 2150 60  0000 C CNN
+	1    6100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475288
+P 7100 2150
+F 0 "#PWR?" H 7100 2000 50  0001 C CNN
+F 1 "+5V" H 7100 2290 50  0000 C CNN
+F 2 "" H 7100 2150 60  0000 C CNN
+F 3 "" H 7100 2150 60  0000 C CNN
+	1    7100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5847528E
+P 8050 2150
+F 0 "#PWR?" H 8050 2000 50  0001 C CNN
+F 1 "+5V" H 8050 2290 50  0000 C CNN
+F 2 "" H 8050 2150 60  0000 C CNN
+F 3 "" H 8050 2150 60  0000 C CNN
+	1    8050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475294
+P 9000 2150
+F 0 "#PWR?" H 9000 2000 50  0001 C CNN
+F 1 "+5V" H 9000 2290 50  0000 C CNN
+F 2 "" H 9000 2150 60  0000 C CNN
+F 3 "" H 9000 2150 60  0000 C CNN
+	1    9000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5847529B
+P 6100 2800
+F 0 "R?" V 6180 2800 50  0000 C CNN
+F 1 "R" V 6100 2800 50  0000 C CNN
+F 2 "" V 6030 2800 30  0000 C CNN
+F 3 "" H 6100 2800 30  0000 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 584752A2
+P 6100 2950
+F 0 "#PWR?" H 6100 2700 50  0001 C CNN
+F 1 "Earth" H 6100 2800 50  0001 C CNN
+F 2 "" H 6100 2950 60  0000 C CNN
+F 3 "" H 6100 2950 60  0000 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 2800 0    60   ~ 0
+optional termination r
+Connection ~ 2050 1850
+Connection ~ 1450 1550
+Wire Wire Line
+	1100 2350 4850 2350
+Wire Wire Line
+	1100 2850 4850 2850
+Wire Wire Line
+	1450 1350 1450 2550
+Connection ~ 2750 1850
+Connection ~ 2150 1550
+Wire Wire Line
+	2150 1350 2150 2550
+Connection ~ 3450 1850
+Connection ~ 2850 1550
+Wire Wire Line
+	2850 1350 2850 2550
+Connection ~ 4150 1850
+Connection ~ 3550 1550
+Wire Wire Line
+	3550 1350 3550 2550
+Connection ~ 4850 1850
+Connection ~ 4250 1550
+Connection ~ 1450 2050
+Connection ~ 1450 2550
+Connection ~ 2050 2850
+Connection ~ 2050 2350
+Connection ~ 2150 2050
+Connection ~ 2150 2550
+Connection ~ 2750 2850
+Connection ~ 2750 2350
+Connection ~ 3450 2350
+Connection ~ 3450 2850
+Connection ~ 4150 2850
+Connection ~ 4150 2350
+Connection ~ 4850 2350
+Connection ~ 2850 2050
+Connection ~ 3550 2050
+Wire Wire Line
+	8050 1750 7950 1750
+Wire Wire Line
+	7950 1750 7950 1550
+Wire Wire Line
+	7950 1550 7900 1550
+Wire Wire Line
+	7100 1750 7000 1750
+Wire Wire Line
+	7000 1750 7000 1550
+Wire Wire Line
+	7000 1550 6900 1550
+Wire Wire Line
+	9000 1750 8950 1750
+Wire Wire Line
+	8950 1750 8950 1550
+Wire Wire Line
+	8950 1550 8850 1550
+Wire Wire Line
+	8050 2350 7950 2350
+Wire Wire Line
+	7950 2350 7950 2150
+Wire Wire Line
+	7950 2150 7900 2150
+Wire Wire Line
+	7100 2350 7000 2350
+Wire Wire Line
+	7000 2350 7000 2150
+Wire Wire Line
+	7000 2150 6900 2150
+Wire Wire Line
+	9000 2350 8950 2350
+Wire Wire Line
+	8950 2350 8950 2150
+Wire Wire Line
+	8950 2150 8850 2150
+Wire Wire Line
+	6100 1750 6100 1950
+Wire Wire Line
+	6100 1950 9800 1950
+Wire Wire Line
+	9800 1950 9800 2150
+Wire Wire Line
+	6100 2350 6100 2650
+$Comp
+L CONN_02X08 conn?
+U 1 1 5847530D
+P 2600 5000
+F 0 "conn?" H 2600 5450 50  0000 C CNN
+F 1 "CONN_02X08" V 2600 5000 50  0000 C CNN
+F 2 "" H 2600 3800 60  0000 C CNN
+F 3 "" H 2600 3800 60  0000 C CNN
+	1    2600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58475314
+P 2950 5350
+F 0 "#PWR?" H 2950 5200 50  0001 C CNN
+F 1 "+5V" H 2950 5490 50  0000 C CNN
+F 2 "" H 2950 5350 60  0000 C CNN
+F 3 "" H 2950 5350 60  0000 C CNN
+	1    2950 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5847531A
+P 2250 5350
+F 0 "#PWR?" H 2250 5100 50  0001 C CNN
+F 1 "Earth" H 2250 5200 50  0001 C CNN
+F 2 "" H 2250 5350 60  0000 C CNN
+F 3 "" H 2250 5350 60  0000 C CNN
+	1    2250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5350 2350 5350
+Wire Wire Line
+	2850 5350 2950 5350
+Connection ~ 4250 2050
+Connection ~ 4850 2850
+Wire Wire Line
+	4250 1350 4250 2050
+Wire Wire Line
+	1100 1850 4850 1850
+$Comp
+L CONN_02X05 thumb
+U 1 1 58475346
+P 4350 4900
+F 0 "thumb" H 4350 5200 50  0000 C CNN
+F 1 "CONN_02X05" H 4350 4600 50  0000 C CNN
+F 2 "" H 4350 3700 60  0000 C CNN
+F 3 "" H 4350 3700 60  0000 C CNN
+	1    4350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 58475356
+P 4600 5100
+F 0 "#PWR?" H 4600 4850 50  0001 C CNN
+F 1 "Earth" H 4600 4950 50  0001 C CNN
+F 2 "" H 4600 5100 60  0000 C CNN
+F 3 "" H 4600 5100 60  0000 C CNN
+	1    4600 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5847535C
+P 4600 5000
+F 0 "#PWR?" H 4600 4850 50  0001 C CNN
+F 1 "+5V" H 4600 5140 50  0000 C CNN
+F 2 "" H 4600 5000 60  0000 C CNN
+F 3 "" H 4600 5000 60  0000 C CNN
+	1    4600 5000
+	0    1    1    0   
+$EndComp
+$Sheet
+S 8350 4250 800  1400
+U 584758B9
+F0 "thumb" 60
+F1 "left-thumb.sch" 60
+F2 "row1" I L 8350 4350 60 
+F3 "row2" I L 8350 4500 60 
+F4 "row3" I L 8350 4650 60 
+F5 "row4" I L 8350 4800 60 
+F6 "col1" I L 8350 4950 60 
+F7 "col2" I L 8350 5100 60 
+F8 "joy-x" I L 8350 5250 60 
+F9 "joy-y" I L 8350 5400 60 
+$EndSheet
+Text HLabel 1100 1850 0    59   Input ~ 0
+row1
+Text HLabel 1100 2350 0    59   Input ~ 0
+row2
+Text HLabel 1100 2850 0    59   Input ~ 0
+row3
+Text HLabel 1450 1350 0    59   Input ~ 0
+col1
+Text HLabel 2150 1350 0    59   Input ~ 0
+col2
+Text HLabel 2850 1350 0    59   Input ~ 0
+col3
+Text HLabel 3550 1350 0    59   Input ~ 0
+col4
+Text HLabel 4250 1350 0    59   Input ~ 0
+col5
+Text HLabel 9800 1550 2    59   Input ~ 0
+ws2812
+NoConn ~ 8350 4350
+NoConn ~ 8350 4500
+NoConn ~ 8350 4650
+NoConn ~ 8350 4800
+NoConn ~ 8350 4950
+NoConn ~ 8350 5100
+NoConn ~ 8350 5250
+NoConn ~ 8350 5400
+Text HLabel 2350 4650 0    59   Input ~ 0
+row1
+Text HLabel 2350 4750 0    59   Input ~ 0
+row2
+Text HLabel 2350 4850 0    59   Input ~ 0
+row3
+Text HLabel 2350 4950 0    59   Input ~ 0
+row4
+Text HLabel 2850 4650 2    59   Input ~ 0
+col1
+Text HLabel 2850 4750 2    59   Input ~ 0
+col2
+Text HLabel 2850 4850 2    59   Input ~ 0
+col3
+Text HLabel 2850 4950 2    59   Input ~ 0
+col4
+Text HLabel 2850 5050 2    59   Input ~ 0
+col5
+Text HLabel 2850 5150 2    59   Input ~ 0
+col6
+Text HLabel 2850 5250 2    59   Input ~ 0
+col7
+Text HLabel 2350 5050 0    59   Input ~ 0
+joy-x
+Text HLabel 2350 5150 0    59   Input ~ 0
+joy-y
+Text HLabel 2350 5250 0    59   Input ~ 0
+ws2812
+Text HLabel 4100 4700 0    59   Input ~ 0
+row1
+Text HLabel 4100 4800 0    59   Input ~ 0
+row2
+Text HLabel 4100 4900 0    59   Input ~ 0
+row3
+Text HLabel 4100 5000 0    59   Input ~ 0
+row4
+Text HLabel 4100 5100 0    59   Input ~ 0
+col6
+Text HLabel 4600 4700 2    59   Input ~ 0
+col7
+Text HLabel 4600 4800 2    59   Input ~ 0
+joy-x
+Text HLabel 4600 4900 2    59   Input ~ 0
+joy-y
+$EndSCHEMATC

@@ -1,0 +1,418 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ws2812b
+LIBS:keyboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATmega32U4 U1
+U 1 1 58477EDC
+P 5900 3600
+F 0 "U1" H 5000 5300 60  0000 C CNN
+F 1 "ATmega32U4" H 5250 2050 60  0000 C CNN
+F 2 "" H 7100 4700 60  0000 C CNN
+F 3 "" H 7100 4700 60  0000 C CNN
+	1    5900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58478040
+P 3650 2950
+F 0 "R4" V 3730 2950 50  0000 C CNN
+F 1 "22r" V 3650 2950 50  0000 C CNN
+F 2 "" V 3580 2950 30  0000 C CNN
+F 3 "" H 3650 2950 30  0000 C CNN
+	1    3650 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 58478081
+P 3250 1700
+F 0 "C1" H 3275 1800 50  0000 L CNN
+F 1 "C" H 3275 1600 50  0000 L CNN
+F 2 "" H 3288 1550 30  0000 C CNN
+F 3 "" H 3250 1700 60  0000 C CNN
+	1    3250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 584780DC
+P 3600 1700
+F 0 "C2" H 3625 1800 50  0000 L CNN
+F 1 "C" H 3625 1600 50  0000 L CNN
+F 2 "" H 3638 1550 30  0000 C CNN
+F 3 "" H 3600 1700 60  0000 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR46
+U 1 1 5847813D
+P 4150 2250
+F 0 "#PWR46" H 4150 2100 50  0001 C CNN
+F 1 "+5V" H 4150 2390 50  0000 C CNN
+F 2 "" H 4150 2250 60  0000 C CNN
+F 3 "" H 4150 2250 60  0000 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR44
+U 1 1 58478159
+P 3500 1950
+F 0 "#PWR44" H 3500 1700 50  0001 C CNN
+F 1 "Earth" H 3500 1800 50  0001 C CNN
+F 2 "" H 3500 1950 60  0000 C CNN
+F 3 "" H 3500 1950 60  0000 C CNN
+	1    3500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X03 P4
+U 1 1 5847817D
+P 5350 1150
+F 0 "P4" H 5350 1350 50  0000 C CNN
+F 1 "CONN_02X03" H 5350 950 50  0000 C CNN
+F 2 "" H 5350 -50 60  0000 C CNN
+F 3 "" H 5350 -50 60  0000 C CNN
+	1    5350 1150
+	1    0    0    -1  
+$EndComp
+Text Label 5100 1050 2    60   ~ 0
+miso
+Text Label 5100 1150 2    60   ~ 0
+sck
+Text Label 5100 1250 2    60   ~ 0
+reset
+Text Label 5600 1150 0    60   ~ 0
+mosi
+$Comp
+L Earth #PWR50
+U 1 1 584783C3
+P 5700 1250
+F 0 "#PWR50" H 5700 1000 50  0001 C CNN
+F 1 "Earth" H 5700 1100 50  0001 C CNN
+F 2 "" H 5700 1250 60  0000 C CNN
+F 3 "" H 5700 1250 60  0000 C CNN
+	1    5700 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5600 1050
+Text Label 7100 2250 0    60   ~ 0
+mosi
+Text Label 7100 2150 0    60   ~ 0
+sck
+Text Label 7100 2350 0    60   ~ 0
+miso
+$Comp
+L USB_B P3
+U 1 1 584788BA
+P 2900 2850
+F 0 "P3" H 3100 2650 50  0000 C CNN
+F 1 "USB_B" H 2850 3050 50  0000 C CNN
+F 2 "" V 2850 2750 60  0000 C CNN
+F 3 "" V 2850 2750 60  0000 C CNN
+	1    2900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR49
+U 1 1 58478AAB
+P 4650 4950
+F 0 "#PWR49" H 4650 4700 50  0001 C CNN
+F 1 "Earth" H 4650 4800 50  0001 C CNN
+F 2 "" H 4650 4950 60  0000 C CNN
+F 3 "" H 4650 4950 60  0000 C CNN
+	1    4650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR48
+U 1 1 58478AF9
+P 4650 3150
+F 0 "#PWR48" H 4650 2900 50  0001 C CNN
+F 1 "Earth" H 4650 3000 50  0001 C CNN
+F 2 "" H 4650 3150 60  0000 C CNN
+F 3 "" H 4650 3150 60  0000 C CNN
+	1    4650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR42
+U 1 1 58478B16
+P 3200 2750
+F 0 "#PWR42" H 3200 2500 50  0001 C CNN
+F 1 "Earth" H 3200 2600 50  0001 C CNN
+F 2 "" H 3200 2750 60  0000 C CNN
+F 3 "" H 3200 2750 60  0000 C CNN
+	1    3200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 58478C2C
+P 3650 2850
+F 0 "R3" V 3730 2850 50  0000 C CNN
+F 1 "22r" V 3650 2850 50  0000 C CNN
+F 2 "" V 3580 2850 30  0000 C CNN
+F 3 "" H 3650 2850 30  0000 C CNN
+	1    3650 2850
+	0    1    1    0   
+$EndComp
+Text Label 4650 3450 2    60   ~ 0
+reset
+Wire Wire Line
+	5600 1250 5700 1250
+Wire Wire Line
+	4150 3050 3200 3050
+Wire Wire Line
+	4150 2250 4150 3050
+Wire Wire Line
+	4150 2750 4650 2750
+Wire Wire Line
+	4650 2050 4650 2350
+Connection ~ 4650 2250
+Connection ~ 4650 2150
+Wire Wire Line
+	4650 2250 4150 2250
+Connection ~ 4150 2750
+Wire Wire Line
+	4650 4650 4650 4950
+Connection ~ 4650 4850
+Connection ~ 4650 4750
+Connection ~ 4650 4650
+Connection ~ 4650 4950
+Wire Wire Line
+	3200 2950 3500 2950
+Wire Wire Line
+	3800 2950 4650 2950
+Wire Wire Line
+	3200 2850 3500 2850
+Wire Wire Line
+	3800 2850 4650 2850
+Wire Wire Line
+	4650 2550 4150 2550
+Connection ~ 4150 2550
+$Comp
+L CRYSTAL_SMD X1
+U 1 1 58478DBC
+P 4000 4100
+F 0 "X1" H 4000 4190 50  0000 C CNN
+F 1 "CRYSTAL_SMD" H 4030 3990 50  0000 L CNN
+F 2 "" H 4000 4100 60  0000 C CNN
+F 3 "CSTCE16M0V53" V 3700 4050 60  0000 C CNN
+	1    4000 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3900 4650 3900
+Wire Wire Line
+	4650 3900 4650 4050
+Wire Wire Line
+	4000 4300 4650 4300
+Wire Wire Line
+	4650 4300 4650 4150
+Wire Wire Line
+	3900 4100 3600 4100
+Connection ~ 4150 2250
+$Comp
+L +5V #PWR43
+U 1 1 58479103
+P 3500 1500
+F 0 "#PWR43" H 3500 1350 50  0001 C CNN
+F 1 "+5V" H 3500 1640 50  0000 C CNN
+F 2 "" H 3500 1500 60  0000 C CNN
+F 3 "" H 3500 1500 60  0000 C CNN
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1550 3600 1550
+Wire Wire Line
+	3500 1550 3500 1500
+Connection ~ 3500 1550
+Wire Wire Line
+	3600 1850 3250 1850
+Wire Wire Line
+	3500 1950 3500 1850
+Connection ~ 3500 1850
+Text GLabel 7100 4450 2    60   Input ~ 0
+row1
+Text GLabel 7100 4550 2    60   Input ~ 0
+row2
+Text GLabel 7100 4650 2    60   Input ~ 0
+row3
+Text GLabel 7100 4750 2    60   Input ~ 0
+row4
+Text GLabel 7100 4850 2    60   Input ~ 0
+col1
+Text GLabel 7100 4950 2    60   Input ~ 0
+col2
+Text GLabel 7100 2650 2    60   Input ~ 0
+col3
+Text GLabel 7100 2550 2    60   Input ~ 0
+col4
+Text GLabel 7100 2450 2    60   Input ~ 0
+col5
+Text GLabel 7100 3950 2    60   Input ~ 0
+col6
+Text GLabel 7100 3050 2    60   Input ~ 0
+col8
+Text GLabel 7100 2950 2    60   Input ~ 0
+col7
+Text GLabel 7100 3550 2    60   Input ~ 0
+col9
+Text GLabel 7100 3450 2    60   Input ~ 0
+col10
+Text GLabel 7100 3250 2    60   Input ~ 0
+col12
+Text GLabel 7100 2750 2    60   Input ~ 0
+col13
+Wire Wire Line
+	7450 2350 7100 2350
+Text GLabel 7650 4950 2    60   Input ~ 0
+r-joy-x
+Text GLabel 7650 5050 2    60   Input ~ 0
+r-joy-y
+$Comp
+L Earth #PWR45
+U 1 1 58479DD5
+P 3600 4100
+F 0 "#PWR45" H 3600 3850 50  0001 C CNN
+F 1 "Earth" H 3600 3950 50  0001 C CNN
+F 2 "" H 3600 4100 60  0000 C CNN
+F 3 "" H 3600 4100 60  0000 C CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58479EB8
+P 1950 3850
+F 0 "R2" V 2030 3850 50  0000 C CNN
+F 1 "10k" V 1950 3850 50  0000 C CNN
+F 2 "" V 1880 3850 30  0000 C CNN
+F 3 "" H 1950 3850 30  0000 C CNN
+	1    1950 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR40
+U 1 1 5847A0AB
+P 1950 3650
+F 0 "#PWR40" H 1950 3500 50  0001 C CNN
+F 1 "+5V" H 1950 3790 50  0000 C CNN
+F 2 "" H 1950 3650 60  0000 C CNN
+F 3 "" H 1950 3650 60  0000 C CNN
+	1    1950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3700 1950 3650
+Wire Wire Line
+	1950 4000 2300 4000
+Text Label 2300 4000 0    60   ~ 0
+reset
+$Comp
+L SW_PUSH SW47
+U 1 1 5847A21A
+P 1950 4300
+F 0 "SW47" H 2100 4410 50  0000 C CNN
+F 1 "SW_PUSH" H 1950 4220 50  0000 C CNN
+F 2 "" H 1950 4300 60  0000 C CNN
+F 3 "" H 1950 4300 60  0000 C CNN
+	1    1950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR41
+U 1 1 5847A275
+P 1950 4600
+F 0 "#PWR41" H 1950 4350 50  0001 C CNN
+F 1 "Earth" H 1950 4450 50  0001 C CNN
+F 2 "" H 1950 4600 60  0000 C CNN
+F 3 "" H 1950 4600 60  0000 C CNN
+	1    1950 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 4000
+Text GLabel 7100 3350 2    60   Input ~ 0
+col11
+$Comp
+L C C3
+U 1 1 5847A5D5
+P 4250 3300
+F 0 "C3" H 4275 3400 50  0000 L CNN
+F 1 "1u" H 4275 3200 50  0000 L CNN
+F 2 "" H 4288 3150 30  0000 C CNN
+F 3 "" H 4250 3300 60  0000 C CNN
+	1    4250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3150 4250 3050
+Wire Wire Line
+	4250 3050 4650 3050
+$Comp
+L Earth #PWR47
+U 1 1 5847A721
+P 4250 3450
+F 0 "#PWR47" H 4250 3200 50  0001 C CNN
+F 1 "Earth" H 4250 3300 50  0001 C CNN
+F 2 "" H 4250 3450 60  0000 C CNN
+F 3 "" H 4250 3450 60  0000 C CNN
+	1    4250 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 3850 2    60   Input ~ 0
+ws2812b-data
+Text GLabel 7650 4600 2    60   Input ~ 0
+l-joy-x
+Text GLabel 7650 4700 2    60   Input ~ 0
+l-joy-y
+Text HLabel 7450 2350 2    60   Input ~ 0
+col14
+$EndSCHEMATC
