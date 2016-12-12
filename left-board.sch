@@ -30,6 +30,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ws2812b
+LIBS:psp1000
+LIBS:alps_4way
 LIBS:keyboard-cache
 EELAYER 25 0
 EELAYER END

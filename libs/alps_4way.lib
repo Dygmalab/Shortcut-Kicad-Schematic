@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# alps_4way
+#
+DEF alps_4way S 0 40 Y Y 1 F N
+F0 "S" 0 350 60 H V C CNN
+F1 "alps_4way" 0 -450 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 300 300 -300 0 1 0 N
+X A 1 500 150 200 L 50 50 1 1 I
+X B 2 500 50 200 L 50 50 1 1 I
+X C 3 500 -50 200 L 50 50 1 1 I
+X com 4 -400 100 200 R 50 50 1 1 I
+X D 5 500 -150 200 L 50 50 1 1 I
+X center 6 -400 -100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
