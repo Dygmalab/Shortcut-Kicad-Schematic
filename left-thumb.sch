@@ -286,20 +286,6 @@ F 3 "" H 4800 3100 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6550 4200 7250 4200
-$Comp
-L alps_4way-RESCUE-keyboard S3
-U 1 1 584E95CE
-P 6050 3450
-AR Path="/58473D15/584758B9/584E95CE" Ref="S3"  Part="1" 
-AR Path="/584843A7/584758B9/584E95CE" Ref="S1"  Part="1" 
-AR Path="/584E95CE" Ref="S3"  Part="1" 
-F 0 "S3" H 6050 3800 60  0000 C CNN
-F 1 "alps_4way" H 6050 3000 60  0000 C CNN
-F 2 "fp:alps 4way" H 6050 3450 60  0001 C CNN
-F 3 "" H 6050 3450 60  0000 C CNN
-	1    6050 3450
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5650 3550
 Wire Wire Line
 	6550 3300 6550 2700
@@ -319,20 +305,6 @@ Wire Wire Line
 	6750 3700 7250 3700
 Wire Wire Line
 	6550 4200 6550 3600
-$Comp
-L alps_4way-RESCUE-keyboard S4
-U 1 1 584E97F9
-P 9000 3450
-AR Path="/58473D15/584758B9/584E97F9" Ref="S4"  Part="1" 
-AR Path="/584843A7/584758B9/584E97F9" Ref="S2"  Part="1" 
-AR Path="/584E97F9" Ref="S4"  Part="1" 
-F 0 "S4" H 9000 3800 60  0000 C CNN
-F 1 "alps_4way" H 9000 3000 60  0000 C CNN
-F 2 "fp:alps 4way" H 9000 3450 60  0001 C CNN
-F 3 "" H 9000 3450 60  0000 C CNN
-	1    9000 3450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8500 3300 8500 2700
 Wire Wire Line
@@ -354,4 +326,30 @@ Wire Wire Line
 Wire Wire Line
 	8500 4200 7950 4200
 NoConn ~ 9400 3550
+$Comp
+L alps_4way S3
+U 1 1 584EB528
+P 6050 3450
+AR Path="/58473D15/584758B9/584EB528" Ref="S3"  Part="1" 
+AR Path="/584843A7/584758B9/584EB528" Ref="S1"  Part="1" 
+F 0 "S3" H 6050 3800 60  0000 C CNN
+F 1 "alps_4way" H 6050 3000 60  0000 C CNN
+F 2 "fp:alps 4way" H 6050 3450 60  0001 C CNN
+F 3 "" H 6050 3450 60  0000 C CNN
+	1    6050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L alps_4way S2
+U 1 1 584EB5AE
+P 9000 3450
+AR Path="/584843A7/584758B9/584EB5AE" Ref="S2"  Part="1" 
+AR Path="/58473D15/584758B9/584EB5AE" Ref="S4"  Part="1" 
+F 0 "S4" H 9000 3800 60  0000 C CNN
+F 1 "alps_4way" H 9000 3000 60  0000 C CNN
+F 2 "fp:alps 4way" H 9000 3450 60  0001 C CNN
+F 3 "" H 9000 3450 60  0000 C CNN
+	1    9000 3450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
