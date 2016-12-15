@@ -820,7 +820,7 @@ AR Path="/584843A7/58475346" Ref="thumb1"  Part="1"
 AR Path="/58473D15/58475346" Ref="thumb2"  Part="1" 
 F 0 "thumb2" H 6850 5250 50  0000 C CNN
 F 1 "CONN_02X05" H 6850 4650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 6850 3750 60  0001 C CNN
+F 2 "fp:thumbpad connector" H 6850 3750 60  0001 C CNN
 F 3 "" H 6850 3750 60  0000 C CNN
 F 4 "2308470" H 6850 4950 60  0001 C CNN "farnell #"
 	1    6850 4950
