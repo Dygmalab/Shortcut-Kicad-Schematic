@@ -378,24 +378,24 @@ $EndComp
 $Comp
 L +5V #PWR014
 U 1 1 5848594C
-P 8550 1800
-F 0 "#PWR014" H 8550 1650 50  0001 C CNN
-F 1 "+5V" H 8550 1940 50  0000 C CNN
-F 2 "" H 8550 1800 60  0000 C CNN
-F 3 "" H 8550 1800 60  0000 C CNN
-	1    8550 1800
-	0    1    1    0   
+P 7850 1100
+F 0 "#PWR014" H 7850 950 50  0001 C CNN
+F 1 "+5V" H 7850 1240 50  0000 C CNN
+F 2 "" H 7850 1100 60  0000 C CNN
+F 3 "" H 7850 1100 60  0000 C CNN
+	1    7850 1100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Earth #PWR015
 U 1 1 58485952
-P 7850 1800
-F 0 "#PWR015" H 7850 1550 50  0001 C CNN
-F 1 "Earth" H 7850 1650 50  0001 C CNN
-F 2 "" H 7850 1800 60  0000 C CNN
-F 3 "" H 7850 1800 60  0000 C CNN
-	1    7850 1800
-	1    0    0    -1  
+P 8550 1100
+F 0 "#PWR015" H 8550 850 50  0001 C CNN
+F 1 "Earth" H 8550 950 50  0001 C CNN
+F 2 "" H 8550 1100 60  0000 C CNN
+F 3 "" H 8550 1100 60  0000 C CNN
+	1    8550 1100
+	-1   0    0    1   
 $EndComp
 $Sheet
 S 9750 750  1150 1750
@@ -487,9 +487,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 4550 8400 4550
 Wire Wire Line
-	7850 1800 7950 1800
+	8550 1100 8450 1100
 Wire Wire Line
-	8450 1800 8550 1800
+	7950 1100 7850 1100
 Text Label 9750 800  2    59   ~ 0
 l-row1
 Text Label 9750 900  2    59   ~ 0
@@ -619,33 +619,33 @@ Text Label 5250 4300 0    59   ~ 0
 r-joy-x
 Text Label 5250 4400 0    59   ~ 0
 r-joy-y
-Text Label 7950 1100 2    59   ~ 0
+Text Label 8450 1800 0    59   ~ 0
 l-row1
-Text Label 7950 1200 2    59   ~ 0
-l-row2
-Text Label 7950 1300 2    59   ~ 0
-l-row3
-Text Label 7950 1400 2    59   ~ 0
-l-row4
-Text Label 7950 1500 2    59   ~ 0
-l-col1
-Text Label 7950 1600 2    59   ~ 0
-l-col2
-Text Label 7950 1700 2    59   ~ 0
-l-ws2812-out
-Text Label 8450 1100 0    59   ~ 0
-l-col3
-Text Label 8450 1200 0    59   ~ 0
-l-col4
-Text Label 8450 1300 0    59   ~ 0
-l-col5
-Text Label 8450 1400 0    59   ~ 0
-l-col6
-Text Label 8450 1500 0    59   ~ 0
-l-col7
-Text Label 8450 1600 0    59   ~ 0
-l-l-joy-x
 Text Label 8450 1700 0    59   ~ 0
+l-row2
+Text Label 8450 1600 0    59   ~ 0
+l-row3
+Text Label 8450 1500 0    59   ~ 0
+l-row4
+Text Label 8450 1400 0    59   ~ 0
+l-col1
+Text Label 8450 1300 0    59   ~ 0
+l-col2
+Text Label 8450 1200 0    59   ~ 0
+l-ws2812-out
+Text Label 7950 1800 2    59   ~ 0
+l-col3
+Text Label 7950 1700 2    59   ~ 0
+l-col4
+Text Label 7950 1600 2    59   ~ 0
+l-col5
+Text Label 7950 1500 2    59   ~ 0
+l-col6
+Text Label 7950 1400 2    59   ~ 0
+l-col7
+Text Label 7950 1300 2    59   ~ 0
+l-l-joy-x
+Text Label 7950 1200 2    59   ~ 0
 l-l-joy-y
 Text Label 9750 2000 2    59   ~ 0
 l-l-joy-x
@@ -694,100 +694,6 @@ Wire Notes Line
 	7150 2950 10750 2950
 Text Notes 7400 2800 0    60   ~ 0
 separate board
-Text Label 10050 4800 2    59   ~ 0
-ws2812-out
-Text Label 10050 4400 2    59   ~ 0
-row1
-Text Label 10050 4500 2    59   ~ 0
-row2
-Text Label 10050 4600 2    59   ~ 0
-row3
-Text Label 10050 4700 2    59   ~ 0
-row4
-Text Label 10050 3500 2    59   ~ 0
-col1
-Text Label 10050 3600 2    59   ~ 0
-col2
-Text Label 10250 4400 0    59   ~ 0
-l-row1
-Text Label 10250 4500 0    59   ~ 0
-l-row2
-Text Label 10250 4600 0    59   ~ 0
-l-row3
-Text Label 10250 4700 0    59   ~ 0
-l-row4
-Text Label 10250 3500 0    59   ~ 0
-l-col1
-Text Label 10250 3600 0    59   ~ 0
-l-col2
-Text Label 10250 4800 0    59   ~ 0
-l-ws2812-out
-Text Label 10050 3700 2    59   ~ 0
-col3
-Text Label 10050 3800 2    59   ~ 0
-col4
-Text Label 10050 3900 2    59   ~ 0
-col5
-Text Label 10050 4000 2    59   ~ 0
-col6
-Text Label 10050 4100 2    59   ~ 0
-col7
-Text Label 10050 4200 2    59   ~ 0
-l-joy-x
-Text Label 10050 4300 2    59   ~ 0
-l-joy-y
-Text Label 10250 3700 0    59   ~ 0
-l-col3
-Text Label 10250 3800 0    59   ~ 0
-l-col4
-Text Label 10250 3900 0    59   ~ 0
-l-col5
-Text Label 10250 4000 0    59   ~ 0
-l-col6
-Text Label 10250 4100 0    59   ~ 0
-l-col7
-Text Label 10250 4200 0    59   ~ 0
-l-l-joy-x
-Text Label 10250 4300 0    59   ~ 0
-l-l-joy-y
-Wire Wire Line
-	10050 3500 10250 3500
-Wire Wire Line
-	10050 3600 10250 3600
-Wire Wire Line
-	10050 3700 10250 3700
-Wire Wire Line
-	10050 3800 10250 3800
-Wire Wire Line
-	10050 3900 10250 3900
-Wire Wire Line
-	10050 4000 10250 4000
-Wire Wire Line
-	10050 4100 10250 4100
-Wire Wire Line
-	10050 4200 10250 4200
-Wire Wire Line
-	10050 4300 10250 4300
-Wire Wire Line
-	10050 4400 10250 4400
-Wire Wire Line
-	10050 4500 10250 4500
-Wire Wire Line
-	10050 4600 10250 4600
-Wire Wire Line
-	10050 4700 10250 4700
-Wire Wire Line
-	10050 4800 10250 4800
-Wire Notes Line
-	9500 3250 11050 3250
-Wire Notes Line
-	11050 3250 11050 5200
-Wire Notes Line
-	11050 5200 9450 5200
-Wire Notes Line
-	9450 5200 9450 3250
-Text Notes 9650 5000 0    60   ~ 0
-optional board interconnect
 Text Notes 7500 2100 0    60   ~ 0
 mating plug is farnell #1642028
 $Comp
