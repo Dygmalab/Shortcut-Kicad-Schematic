@@ -156,8 +156,9 @@ U 1 1 58484170
 P 1050 2500
 F 0 "P1" H 1250 2300 50  0000 C CNN
 F 1 "USB_B" H 1000 2700 50  0000 C CNN
-F 2 "Connect:USB_Mini-B" V 1000 2400 60  0001 C CNN
+F 2 "fp:USB MICRO B" V 1000 2400 60  0001 C CNN
 F 3 "" V 1000 2400 60  0000 C CNN
+F 4 "2293836" H 1050 2500 60  0001 C CNN "farnell #"
 	1    1050 2500
 	0    -1   -1   0   
 $EndComp
@@ -462,8 +463,6 @@ Wire Wire Line
 	2050 3750 1750 3750
 Connection ~ 2300 1900
 Wire Wire Line
-	700  1100 1300 1100
-Wire Wire Line
 	1200 1100 1200 1050
 Connection ~ 1200 1100
 Wire Wire Line
@@ -696,17 +695,8 @@ Text Notes 7400 2800 0    60   ~ 0
 separate board
 Text Notes 7500 2100 0    60   ~ 0
 mating plug is farnell #1642028
-$Comp
-L CP C5
-U 1 1 584FF3C6
-P 700 1250
-F 0 "C5" H 725 1350 50  0000 L CNN
-F 1 "10u" H 725 1150 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 738 1100 30  0001 C CNN
-F 3 "" H 700 1250 60  0000 C CNN
-	1    700  1250
-	1    0    0    -1  
-$EndComp
 Connection ~ 950  1100
 Connection ~ 950  1400
+Wire Wire Line
+	700  1100 1300 1100
 $EndSCHEMATC
