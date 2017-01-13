@@ -336,6 +336,7 @@ F 0 "S3" H 6050 3800 60  0000 C CNN
 F 1 "alps_4way" H 6050 3000 60  0000 C CNN
 F 2 "fp:alps 4way smt" H 6050 3450 60  0001 C CNN
 F 3 "" H 6050 3450 60  0000 C CNN
+F 4 "1435774" H 6050 3450 60  0001 C CNN "farnell #"
 	1    6050 3450
 	1    0    0    -1  
 $EndComp
@@ -349,6 +350,7 @@ F 0 "S4" H 9000 3800 60  0000 C CNN
 F 1 "alps_4way" H 9000 3000 60  0000 C CNN
 F 2 "fp:alps 4way smt" H 9000 3450 60  0001 C CNN
 F 3 "" H 9000 3450 60  0000 C CNN
+F 4 "1435774" H 9000 3450 60  0001 C CNN "farnell #"
 	1    9000 3450
 	-1   0    0    -1  
 $EndComp
@@ -368,4 +370,6 @@ F 3 "" H 4800 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4600 4150
+Text Notes 6300 4750 0    60   ~ 0
+http://uk.farnell.com/alps/skqubae010/navigation-switch-4way-smd/dp/1435774
 $EndSCHEMATC
