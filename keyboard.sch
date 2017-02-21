@@ -33,7 +33,7 @@ LIBS:ws2812b
 LIBS:psp1000
 LIBS:alps_4way
 LIBS:keyboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -154,18 +154,6 @@ sck
 Text Label 5250 2000 0    60   ~ 0
 miso
 $Comp
-L USB_B P1
-U 1 1 58484170
-P 1050 2500
-F 0 "P1" H 1250 2300 50  0000 C CNN
-F 1 "USB_B" H 1000 2700 50  0000 C CNN
-F 2 "fp:USB MICRO B" V 1000 2400 60  0001 C CNN
-F 3 "" V 1000 2400 60  0000 C CNN
-F 4 "2293836" H 1050 2500 60  0001 C CNN "farnell #"
-	1    1050 2500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Earth #PWR04
 U 1 1 58484177
 P 2800 4600
@@ -190,12 +178,12 @@ $EndComp
 $Comp
 L Earth #PWR06
 U 1 1 58484183
-P 1350 2400
-F 0 "#PWR06" H 1350 2150 50  0001 C CNN
-F 1 "Earth" H 1350 2250 50  0001 C CNN
-F 2 "" H 1350 2400 60  0000 C CNN
-F 3 "" H 1350 2400 60  0000 C CNN
-	1    1350 2400
+P 1350 2300
+F 0 "#PWR06" H 1350 2050 50  0001 C CNN
+F 1 "Earth" H 1350 2150 50  0001 C CNN
+F 2 "" H 1350 2300 60  0000 C CNN
+F 3 "" H 1350 2300 60  0000 C CNN
+	1    1350 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -334,9 +322,7 @@ F10 "ws2812" I L 3300 6800 60
 F11 "row4" I L 3300 5600 60 
 F12 "col6" I L 3300 6200 60 
 F13 "col7" I L 3300 6300 60 
-F14 "joy-x" I L 3300 6400 60 
-F15 "joy-y" I L 3300 6500 60 
-F16 "ws2812-out" I L 3300 6950 60 
+F14 "ws2812-out" I L 3300 6950 60 
 $EndSheet
 $Comp
 L CONN_02X08 conn1
@@ -422,9 +408,7 @@ F10 "ws2812" I L 9750 2300 60
 F11 "row4" I L 9750 1100 60 
 F12 "col6" I L 9750 1700 60 
 F13 "col7" I L 9750 1800 60 
-F14 "joy-x" I L 9750 2000 60 
-F15 "joy-y" I L 9750 2100 60 
-F16 "ws2812-out" I L 9750 2400 60 
+F14 "ws2812-out" I L 9750 2400 60 
 $EndSheet
 Wire Wire Line
 	2300 1350 2400 1350
@@ -551,10 +535,6 @@ Text Label 3300 6200 2    59   ~ 0
 col13
 Text Label 3300 6300 2    59   ~ 0
 col14
-Text Label 3300 6400 2    59   ~ 0
-r-joy-x
-Text Label 3300 6500 2    59   ~ 0
-r-joy-y
 Text Label 7800 3850 2    59   ~ 0
 row1
 Text Label 7800 3950 2    59   ~ 0
@@ -577,10 +557,6 @@ Text Label 8300 4150 0    59   ~ 0
 col6
 Text Label 8300 4250 0    59   ~ 0
 col7
-Text Label 8300 4350 0    59   ~ 0
-l-joy-x
-Text Label 8300 4450 0    59   ~ 0
-l-joy-y
 Text Label 5600 2000 0    59   ~ 0
 col14
 Text Label 5250 2100 0    59   ~ 0
@@ -617,14 +593,6 @@ Text Label 5250 4500 0    59   ~ 0
 col1
 Text Label 5250 4600 0    59   ~ 0
 col2
-Text Label 5250 4100 0    59   ~ 0
-l-joy-x
-Text Label 5250 4200 0    59   ~ 0
-l-joy-y
-Text Label 5250 4300 0    59   ~ 0
-r-joy-x
-Text Label 5250 4400 0    59   ~ 0
-r-joy-y
 Text Label 8450 1800 0    59   ~ 0
 l-row1
 Text Label 8450 1700 0    59   ~ 0
@@ -649,16 +617,8 @@ Text Label 7950 1500 2    59   ~ 0
 l-col6
 Text Label 7950 1400 2    59   ~ 0
 l-col7
-Text Label 7950 1300 2    59   ~ 0
-l-l-joy-x
-Text Label 7950 1200 2    59   ~ 0
-l-l-joy-y
-Text Label 9750 2000 2    59   ~ 0
-l-l-joy-x
-Text Label 9750 2100 2    59   ~ 0
-l-l-joy-y
 NoConn ~ 5250 1700
-NoConn ~ 950  2200
+NoConn ~ 1350 2400
 $Comp
 L PWR_FLAG #FLG016
 U 1 1 5846BE26
@@ -669,31 +629,6 @@ F 2 "" H 2800 4300 50  0000 C CNN
 F 3 "" H 2800 4300 50  0000 C CNN
 	1    2800 4300
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 5846C1E3
-P 2000 2100
-F 0 "C4" H 2025 2200 50  0000 L CNN
-F 1 "1u" H 2025 2000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2038 1950 30  0001 C CNN
-F 3 "" H 2000 2100 60  0000 C CNN
-F 4 "1759422" H 2000 2100 60  0001 C CNN "farnell #"
-	1    2000 2100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2800 2100 2150 2100
-$Comp
-L Earth #PWR017
-U 1 1 5846C396
-P 1850 2100
-F 0 "#PWR017" H 1850 1850 50  0001 C CNN
-F 1 "Earth" H 1850 1950 50  0001 C CNN
-F 2 "" H 1850 2100 60  0000 C CNN
-F 3 "" H 1850 2100 60  0000 C CNN
-	1    1850 2100
-	0    1    1    0   
 $EndComp
 Wire Notes Line
 	7150 650  7150 2950
@@ -707,6 +642,33 @@ Connection ~ 950  1100
 Connection ~ 950  1400
 Wire Wire Line
 	700  1100 1300 1100
-Text Notes 650  2100 0    60   ~ 0
-id & gnd pin flipped
+Text Notes 2700 6250 0    60   ~ 0
+thumbs
+Text Notes 9050 1750 0    60   ~ 0
+thumbs
+Text Notes 2500 6100 0    60   ~ 0
+col with 2
+Text Notes 8950 1600 0    60   ~ 0
+col with 2
+NoConn ~ 950  2100
+$Comp
+L USB_OTG P1
+U 1 1 58AC4061
+P 1050 2500
+F 0 "P1" H 1375 2375 50  0000 C CNN
+F 1 "USB_OTG" H 1050 2700 50  0000 C CNN
+F 2 "" V 1000 2400 50  0001 C CNN
+F 3 "" V 1000 2400 50  0000 C CNN
+	1    1050 2500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2800 2100
+NoConn ~ 5250 4100
+NoConn ~ 5250 4200
+NoConn ~ 5250 4300
+NoConn ~ 5250 4400
+NoConn ~ 8300 4350
+NoConn ~ 8300 4450
+NoConn ~ 7950 1200
+NoConn ~ 7950 1300
 $EndSCHEMATC
