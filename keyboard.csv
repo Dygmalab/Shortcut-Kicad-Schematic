@@ -1,0 +1,19 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,farnell #
+1,2,"C1, C3",1u,device:C,Capacitors_SMD:C_0805,,1759422
+2,3,"C2, C7, C9",0.1u,device:C,Capacitors_SMD:C_0805,,1759167
+3,2,"C6, C8",2.2u,device:CP,Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow,,1759424
+4,46,"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D3, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D4, D40, D41, D42, D43, D44, D45, D46, D5, D6, D7, D8, D9",D,device:D,Diodes_SMD:SOD-123,,2454043
+5,1,P1,USB_OTG,conn:USB_OTG,,,2293836
+6,14,"P10, P11, P12, P13, P14, P17, P20, P3, P4, P5, P6, P7, P8, P9",CONN_01X01,conn:CONN_01X01,Mounting_Holes:MountingHole_4mm,,
+7,4,"P15, P16, P18, P19",CONN_01X06,conn:CONN_01X06,,,
+8,1,P2,CONN_02X03,conn:CONN_02X03,Pin_Headers:Pin_Header_Straight_2x03,,
+9,1,R1,10k,device:R,Resistors_SMD:R_0805,,2447553
+10,2,"R2, R3",22r,device:R,Resistors_SMD:R_0805,,9332847
+11,1,RESET1,SW_PUSH,device:SW_PUSH,matt:SW_SPST_FSMSM,,9471898
+12,4,"S1, S2, S3, S4",alps_4way,alps_4way:alps_4way,fp:alps 4way smt,,1435774
+13,20,"SW1, SW10, SW16, SW2, SW24, SW25, SW26, SW27, SW28, SW29, SW3, SW30, SW31, SW32, SW4, SW5, SW6, SW7, SW8, SW9",SW_PUSH,device:SW_PUSH,fp:CHERRY_MXx4,,
+14,10,"SW11, SW12, SW13, SW14, SW15, SW33, SW34, SW35, SW36, SW37",SW_PUSH,device:SW_PUSH,fp:CHERRY_MXx2,,
+15,1,U1,ATmega32U4,atmel:ATmega32U4,Housings_QFP:LQFP-44_10x10mm_Pitch0.8mm,,1748525
+16,1,X1,CRYSTAL_SMD,device:CRYSTAL_SMD,fp:cstce-v,CSTCE16M0V53,2443265
+17,2,"conn1, conn2",CONN_02X08,conn:CONN_02X08,Socket_Strips:Socket_Strip_Angled_2x08,,1642024
+18,16,"led1, led10, led11, led12, led13, led14, led15, led16, led2, led3, led4, led5, led6, led7, led8, led9",ws2812b,ws2812b:ws2812b,WS2812B:WS2812B,,
