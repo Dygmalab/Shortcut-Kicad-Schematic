@@ -673,4 +673,35 @@ NoConn ~ 8300 4350
 NoConn ~ 8300 4450
 NoConn ~ 7950 1200
 NoConn ~ 7950 1300
+$Comp
+L R R4
+U 1 1 58B59D81
+P 1050 5300
+F 0 "R4" V 1130 5300 50  0000 C CNN
+F 1 "10k" V 1050 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 980 5300 30  0001 C CNN
+F 3 "" H 1050 5300 30  0000 C CNN
+F 4 "2447553" H 1050 5300 60  0001 C CNN "farnell #"
+	1    1050 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Earth #PWR017
+U 1 1 58B59E8A
+P 1050 5450
+F 0 "#PWR017" H 1050 5200 50  0001 C CNN
+F 1 "Earth" H 1050 5300 50  0001 C CNN
+F 2 "" H 1050 5450 60  0000 C CNN
+F 3 "" H 1050 5450 60  0000 C CNN
+	1    1050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5150 1050 5000
+Wire Wire Line
+	1050 5000 1400 5000
+Text Label 1100 5000 0    60   ~ 0
+row3
+Text Notes 750  4900 0    60   ~ 0
+place resistor to enable hwb
 $EndSCHEMATC
