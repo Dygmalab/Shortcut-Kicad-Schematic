@@ -2,6 +2,10 @@ Shortcut v4 schematic and board layout. This is the version that
 [Dygma](http://www.dygma.com) used for conducting closed beta testing of the
 shortcut gaming keyboard.
 
+![board.png](board.png)
+
+[Schematic PDF](schematic.pdf)
+
 Copyright Dygma 2017.
 
 This documentation describes Open Hardware and is licensed under the
